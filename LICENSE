@@ -1,0 +1,45 @@
+Server Bouncer Binary Use License
+
+Copyright (c) 2026 Michael Henderson, also known as Chong.
+Published by Safe Mode Software. All rights reserved.
+
+OWNERSHIP
+
+Server Bouncer, including its compiled binary, behavior, branding,
+documentation, and all underlying source code, remains the exclusive property
+of Michael Henderson / Safe Mode Software. Downloading, possessing,
+installing, or using the software does not transfer ownership or intellectual
+property rights.
+
+LIMITED PERMISSION
+
+Permission is granted to download and run an unmodified copy of
+ServerBouncer.dll on ARK: Survival Ascended servers owned or administered by
+the recipient. The recipient may edit config.json for those servers and may
+make reasonable backup copies of the unmodified runtime files.
+
+RESTRICTIONS
+
+Without prior written permission from Michael Henderson or Safe Mode Software,
+you may not:
+
+1. claim ownership or authorship of Server Bouncer;
+2. sell, sublicense, rent, redistribute, mirror, republish, or repackage the
+   plugin or include it in another downloadable server or plugin package;
+3. modify, patch, translate, reverse engineer, decompile, disassemble, or
+   attempt to derive source code from ServerBouncer.dll;
+4. remove or alter copyright, attribution, branding, or license notices; or
+5. use Server Bouncer or its branding to create or market a competing
+   derivative product.
+
+This license is revocable upon violation of these terms. Upon revocation, all
+copies must be removed.
+
+NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL MICHAEL
+HENDERSON, CHONG, OR SAFE MODE SOFTWARE BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR
+ITS USE.

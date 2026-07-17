@@ -1,0 +1,145 @@
+{
+    "ServerName":  "",
+    "Webhook":  "",
+    "Webhooks":  {
+                     "Commands":  "",
+                     "Bans":  "",
+                     "Disconnections":  "",
+                     "Kicks":  "",
+                     "BanExpirations":  "",
+                     "DupeCharactersAndLogins":  "",
+                     "ProfileAudit":  ""
+                 },
+    "BlockMultipleCharacters":  true,
+    "ProfileAudit":  {
+                         "Enabled":  false,
+                         "WebhookCategory":  "DupeCharactersAndLogins",
+                         "ScanIntervalSeconds":  3600,
+                         "RunOnStartup":  true,
+                         "StartupDelaySeconds":  10,
+                         "OnlyReportChanges":  true,
+                         "DistributedDedupeEnabled":  true,
+                         "DedupeScope":  "default",
+                         "MaxReportedPlayers":  10,
+                         "RunOnServerNames":  [
+
+                                              ],
+                         "QuarantineEnabled":  false,
+                         "QuarantineOnScheduledAudit":  false,
+                         "QuarantineOnDuplicateProfileBlock":  false,
+                         "ReportOnDuplicateProfileBlock":  true,
+                         "QuarantinePreferRegisteredProfile":  true,
+                         "ProtectActiveClusterTransfers":  true,
+                         "QuarantineBackupFolderName":  "ServerBouncerProfileBackups",
+                         "QuarantineBackupPath":  "",
+                         "MinValidProfileBytes":  1024,
+                         "IgnoredFolderNames":  [
+                                                    "ServerBouncerProfileBackups",
+                                                    "ServerBouncerProfileAuditRegistered"
+                                                ],
+                         "Servers":  [
+                                         {
+                                             "Name":  "Server 1",
+                                             "RootPath":  "C:/ARK/Server1"
+                                         },
+                                         {
+                                             "Name":  "Server 2",
+                                             "RootPath":  "C:/ARK/Server2"
+                                         }
+                                     ],
+                         "ClusterPaths":  [
+                                              {
+                                                  "Name":  "Shared Cluster",
+                                                  "Path":  "C:/ARK/SharedCluster/clusters/cluster_id"
+                                              }
+                                          ]
+                     },
+    "ExclusiveJoinPermissions":  {
+                                     "Enabled":  true,
+                                     "Groups":  [
+                                                    "WhiteListGroup",
+                                                    "Admins"
+                                                ]
+                                 },
+    "JoinRequiresPermission":  {
+                                   "Enabled":  false,
+                                   "Maps":  {
+                                                "TheIsland_WP":  "",
+                                                "Svartalfheim_WP":  "Admins,VIP"
+                                            }
+                               },
+    "Messages":  {
+                     "Sender":  {
+                                    "Message":  "Server Bouncer"
+                                },
+                     "Error":  {
+                                   "Message":  "\u003cRichColor Color=\"1, 0, 0, 1\"\u003eSomething went wrong!\u003c/\u003e"
+                               },
+                     "ExclusiveJoin":  {
+                                           "Message":  "You are not allowed to join this server."
+                                       },
+                     "Kick":  {
+                                  "Message":  "You have been kicked from the server."
+                              },
+                     "Ban":  {
+                                 "Message":  "You are BANNED!\nReason: {Reason}\nDate Banned: {date banned}\nExpires: {Expiration}",
+                                 "Scale":  1.3,
+                                 "DisplayTime":  10.0,
+                                 "Color":  "Red"
+                             },
+                     "PermaBannedExpires":  {
+                                                "Message":  "Never"
+                                            },
+                     "AlreadyHasCharacter":  {
+                                                 "Message":  "Multiple characters are not allowed!\nCharacter: {Character}\nLevel: {Level}\nLast seen on \u0027{Map}\u0027\nDate: {Date}",
+                                                 "Scale":  1.3,
+                                                 "DisplayTime":  10.0,
+                                                 "Color":  "Red"
+                                             },
+                     "AlreadyLoggedIn":  {
+                                             "Message":  "You are already logged in on \u0027{}\u0027."
+                                         },
+                     "LastSeen":  {
+                                      "Message":  "You were last seen on \u0027{}\u0027"
+                                  },
+                     "JoinRequiresPermission":  {
+                                                    "Message":  "You are not allowed to join this server."
+                                                }
+                 },
+    "Mysql":  {
+                  "MysqlHost":  "127.0.0.1",
+                  "MysqlPort":  3306,
+                  "MysqlUser":  "server_bouncer",
+                  "MysqlPass":  "change_me",
+                  "MysqlDB":  "server_bouncer"
+              },
+    "Advanced":  {
+                     "SessionTimeoutSeconds":  120,
+                     "HeartbeatSeconds":  10,
+                     "EnforcementPollSeconds":  60,
+                     "KickRetrySeconds":  1,
+                     "PreKickWarningEnabled":  true,
+                     "RequireResolvedPlayerDataForKick":  true,
+                     "RejectNewCharacterBeforeProfileWrite":  false,
+                     "StabilizeLoginKicksBeforeNativeKick":  true,
+                     "LoginKickStabilizeSeconds":  8,
+                     "RequireFullyLoadedPlayerForStabilizedLoginKicks":  true,
+                     "EnforceRegisteredServerLocation":  false,
+                     "NativeKickMethod":  "GameMode",
+                     "NativeKickSingleLineReason":  false,
+                     "AggressiveKickMessageDebug":  false,
+                     "KickMessageDebugChannel":  "All",
+                     "ConnectedBanKickDelaySeconds":  8,
+                     "BanLoginKickDelaySeconds":  4,
+                     "BanRepeatWarningEnabled":  true,
+                     "BanWarnImmediately":  true,
+                     "BanWarningRepeatSeconds":  2,
+                     "RejectedLoginKickDelaySeconds":  10,
+                     "DuplicateCharacterKickDelaySeconds":  12,
+                     "UnresolvedDuplicateCharacterKickDelaySeconds":  12,
+                     "DuplicateCharacterRepeatWarningEnabled":  true,
+                     "DuplicateCharacterWarnImmediately":  true,
+                     "DuplicateCharacterWarningRepeatSeconds":  2,
+                     "TransferGraceSeconds":  0
+                 }
+}

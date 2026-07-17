@@ -1,0 +1,7 @@
+{
+  "FullName": "Server Bouncer",
+  "Description": "Cluster-wide login protection, duplicate character blocking, MySQL bans, exclusive join, permission-gated joins, and Discord webhooks.",
+  "Version": 1.1,
+  "MinApiVersion": 1.19,
+  "Dependencies": []
+}
